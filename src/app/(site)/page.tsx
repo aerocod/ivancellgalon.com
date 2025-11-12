@@ -2,8 +2,8 @@ import Home from "@/components/Home";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NextCommerce | Nextjs E-commerce template",
-  description: "This is Home for NextCommerce Template",
+  title: "ivancellgalon.com | Website Resmi ivancell_galon",
+  description: "Menyediakan berbagai kebutuhan minuman sejak 2005",
   // other metadata
 };
 

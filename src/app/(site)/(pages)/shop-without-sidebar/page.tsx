@@ -3,8 +3,8 @@ import ShopWithoutSidebar from "@/components/ShopWithoutSidebar";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Shop Page | NextCommerce Nextjs E-commerce template",
-  description: "This is Shop Page for NextCommerce Template",
+  title: "ivancellgalon.com | Website Resmi ivancell_galon",
+  description: "Menyediakan berbagai kebutuhan minuman sejak 2005",
   // other metadata
 };
 
