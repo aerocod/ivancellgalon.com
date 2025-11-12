@@ -15,8 +15,10 @@ const initialState = {
     id: 0,
     images: [],
     imgs: { thumbnails: [], previews: [] },
-  } as Product,
-} as InitialState;
+    link: "", // <-- ADD THIS!
+  },
+}
+
 
 export const quickView = createSlice({
   name: "quickView",

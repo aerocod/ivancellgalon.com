@@ -12,12 +12,13 @@ const initialState = {
     price: 0,
     discountedPrice: 0,
     img: "",
-    images: [],
     id: 0,
+    images: [],
     imgs: { thumbnails: [], previews: [] },
-    link: "",
+    link: "", // <-- ADD THIS!
   },
-} as InitialState;
+}
+
 
 export const productDetails = createSlice({
   name: "productDetails",
