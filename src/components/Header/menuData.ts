@@ -11,7 +11,7 @@ export const menuData: Menu[] = [
     id: 2,
     title: "Air Mineral",
     newTab: false,
-    path: "/Air Mineral",
+    path: "/AirMineral",
     submenu: [
       { 
         id: 100,
