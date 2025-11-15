@@ -1,167 +1,113 @@
 import { Product } from "@/types/product";
-const ProdukAqua: Product[] = [
+const ProdukClub: Product[] = [
   {
-    title: "(1 DUS) TEH MELATI ICHI OCHA 350 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 7,
-    price: 65000,
+    title: "AQUA GALON 19L (galon+air) - ORIGINAL 100%",
+    reviews: 4,
+    price: 60000,
     discountedPrice: 58000,
     id: 1,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)TEH-MELATI-ICHI-OCHA-350-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.40823813665?extraParams=%7B%22display_model_id%22%3A276934958061%7D",
+    link: "https://shopee.co.id/product/9433308/29289495967?d_id=1587d&uls_trackid=546n8c4g0058&utm_content=285n8xL3hFNhtD6wz4yKyrNeZxoh",
     imgs: {
       thumbnails: [
-        "/images/products/teh/ichiocha350ml.webp",
-        "/images/products/teh/ichiocha350ml.webp",
+        "/images/brand/aqua/aquagalon19l.webp",
+        "/images/brand/aqua/aquagalon19l.webp",
       ],
       previews: [
-        "/images/products/teh/ichiocha350ml.webp",
-        "/images/products/teh/ichiocha350ml.webp",
+        "/images/brand/aqua/aquagalon19l.webp",
+        "/images/brand/aqua/aquagalon19l.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH PUCUK HARUM 350 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 32,
-    price: 70000,
-    discountedPrice: 67500,
-    id: 2,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)TEH-PUCUK-HARUM-350-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.25043300109?extraParams=%7B%22display_model_id%22%3A248026684175%7D",
-    imgs: {
-      thumbnails: [
-        "/images/products/teh/tehpucuk350ml.webp",
-        "/images/products/teh/tehpucuk350ml.webp",
-      ],
-      previews: [
-        "/images/products/teh/tehpucuk350ml.webp",
-        "/images/products/teh/tehpucuk350ml.webp",
-      ],
-    },
-  },
-  {
-    title: "(1 DUS) TEH PUCUK HARUM LESS SUGAR 350 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 5,
-    price: 70000,
-    discountedPrice: 67500,
-    id: 3,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)TEH-PUCUK-HARUM-LESS-SUGAR-350-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.43513911041?extraParams=%7B%22display_model_id%22%3A291148736269%7D",
-    imgs: {
-      thumbnails: [
-        "/images/products/teh/tehpucukls350ml.webp",
-        "/images/products/teh/tehpucukls350ml.webp",
-      ],
-      previews: [
-        "/images/products/teh/tehpucukls350ml.webp",
-        "/images/products/teh/tehpucukls350ml.webp",
-      ],
-    },
-  },
-  {
-    title: "(1 DUS) TEH BOTOL SOSRO ORIGINAL 350 ML isi (12 BOTOL) - ORIGINAL 100%",
-    reviews: 3,
-    price: 55000,
-    discountedPrice: 51000,
-    id: 4,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)-TEH-BOTOL-SOSRO-ORIGINAL-350-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.26391899330?extraParams=%7B%22display_model_id%22%3A296664531610%7D",
-    imgs: {
-      thumbnails: [
-        "/images/products/teh/tehsosro350ml.webp",
-        "/images/products/teh/tehsosro350ml.webp",
-      ],
-      previews: [
-        "/images/products/teh/tehsosro350ml.webp",
-        "/images/products/teh/tehsosro350ml.webp",
-      ],
-    },
-  },
-  {
-    title: "(1 DUS) TEH NoGu Green Tea 250 ML isi (12 BOTOL) - ORIGINAL 100%",
-    reviews: 5,
+    title: "(1 DUS) AQUA GELAS 220 mL isi (48 GELAS) - ORIGINAL 100%",
+    reviews: 17,
     price: 40000,
-    discountedPrice: 35000,
+    discountedPrice: 37000,
+    id: 2,
+    link: "https://shopee.co.id/product/9433308/29081276283?d_id=1587d&uls_trackid=546n8vil002f&utm_content=285n8xL3hFQma38qqTLBspaAC26K",
+    imgs: {
+      thumbnails: [
+        "/images/brand/aqua/aquagelas220ml.webp",
+        "/images/brand/aqua/aquagelas220ml.webp",
+      ],
+      previews: [
+        "/images/brand/aqua/aquagelas220ml.webp",
+        "/images/brand/aqua/aquagelas220ml.webp",
+      ],
+    },
+  },
+  {
+    title: "AQUA Botol Mini Cube 220 ML 1 DUS isi (24 BOTOL) - ORIGINAL 100%",
+    reviews: 109,
+    price: 33000,
+    discountedPrice: 30000,
+    id: 3,
+    link: "https://shopee.co.id/product/9433308/26281272511?d_id=1587d&uls_trackid=546n97t70058&utm_content=285n8xL3gynAX2HUeZHHzsSurU3y",
+    imgs: {
+      thumbnails: [
+        "/images/brand/aqua/aquabotol220ml.webp",
+        "/images/brand/aqua/aquabotol220ml.webp",
+      ],
+      previews: [
+        "/images/brand/aqua/aquabotol220ml.webp",
+        "/images/brand/aqua/aquabotol220ml.webp",
+      ],
+    },
+  },
+  {
+    title: "(1 DUS) AQUA Botol 330 ML isi (24 BOTOL) - ORIGINAL 100%",
+    reviews: 13,
+    price: 45000,
+    discountedPrice: 44000,
+    id: 4,
+    link: "https://shopee.co.id/product/9433308/29531284578?d_id=1587d&uls_trackid=546napa8005k&utm_content=285n8xL3hFf8E8yM7YgGEahy81MZ",
+    imgs: {
+      thumbnails: [
+        "/images/brand/aqua/aquabotol330ml.webp",
+        "/images/brand/aqua/aquabotol330ml.webp",
+      ],
+      previews: [
+        "/images/brand/aqua/aquabotol330ml.webp",
+        "/images/brand/aqua/aquabotol330ml.webp",
+      ],
+    },
+  },
+  {
+    title: "(1 DUS) AQUA Botol 600 ML isi (24 BOTOL) - ORIGINAL 100%",
+    reviews: 23,
+    price: 55000,
+    discountedPrice: 53000,
     id: 5,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)TEH-NoGu-Green-Tea-250-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.40765650106?extraParams=%7B%22display_model_id%22%3A286287804383%7D",
+    link: "https://shopee.co.id/product/9433308/24793282502?d_id=1587d&uls_trackid=546nb08o003e&utm_content=285n8xL3gzMHVpCY3a8YiNJKL92o",
     imgs: {
       thumbnails: [
-        "/images/products/teh/nogu250ml.webp",
-        "/images/products/teh/nogu250ml.webp",
+        "/images/brand/aqua/aquabotol600ml.webp",
+        "/images/brand/aqua/aquabotol600ml.webp",
       ],
       previews: [
-        "/images/products/teh/nogu250ml.webp",
-        "/images/products/teh/nogu250ml.webp",
+        "/images/brand/aqua/aquabotol600ml.webp",
+        "/images/brand/aqua/aquabotol600ml.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH PUCUK HARUM LESS SUGAR 500 ML isi (12 BOTOL) - ORIGINAL 100%",
-    reviews: 0,
-    price: 70000,
-    discountedPrice: 65000,
+    title: "(1 DUS) AQUA Botol 1500 ML isi (12 BOTOL) - ORIGINAL 100%",
+    reviews: 10,
+    price: 65000,
+    discountedPrice: 60000,
     id: 6,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)TEH-PUCUK-HARUM-LESS-SUGAR-500-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.41226058512?extraParams=%7B%22display_model_id%22%3A385058656189%7D",
+    link: "https://shopee.co.id/-INSTANT-(1-DUS)-AQUA-Botol-1500-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.27731297071?extraParams=%7B%22display_model_id%22%3A215932609760%7D",
     imgs: {
       thumbnails: [
-        "/images/products/teh/tehpucukls500ml.webp",
-        "/images/products/teh/tehpucukls500ml.webp",
+        "/images/brand/aqua/aquabotol1500ml.webp",
+        "/images/brand/aqua/aquabotol1500ml.webp",
       ],
       previews: [
-        "/images/products/teh/tehpucukls500ml.webp",
-        "/images/products/teh/tehpucukls500ml.webp",
-      ],
-    },
-  },
-  {
-    title: "(1 DUS) TEH BOTOL SOSRO ORIGINAL 450 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 2,
-    price: 150000,
-    discountedPrice: 143000,
-    id: 7,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)-TEH-BOTOL-SOSRO-ORIGINAL-450-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.43270387610?extraParams=%7B%22display_model_id%22%3A261665101818%7D",
-    imgs: {
-      thumbnails: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
-      ],
-      previews: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
-      ],
-    },
-  },
-  {
-    title: "(1 DUS) TEH BOTOL SOSRO ORIGINAL 450 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 2,
-    price: 150000,
-    discountedPrice: 143000,
-    id: 8,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)-TEH-BOTOL-SOSRO-ORIGINAL-450-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.43270387610?extraParams=%7B%22display_model_id%22%3A261665101818%7D",
-    imgs: {
-      thumbnails: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
-      ],
-      previews: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
-      ],
-    },
-  },
-  {
-    title: "(1 DUS) TEH BOTOL SOSRO ORIGINAL 450 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 2,
-    price: 150000,
-    discountedPrice: 143000,
-    id: 9,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)-TEH-BOTOL-SOSRO-ORIGINAL-450-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.43270387610?extraParams=%7B%22display_model_id%22%3A261665101818%7D",
-    imgs: {
-      thumbnails: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
-      ],
-      previews: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
+        "/images/brand/aqua/aquabotol1500ml.webp",
+        "/images/brand/aqua/aquabotol1500ml.webp",
       ],
     },
   },
 ];
 
-export default ProdukAqua;
+export default ProdukClub;

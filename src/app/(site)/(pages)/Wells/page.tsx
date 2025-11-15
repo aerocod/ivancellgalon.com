@@ -6,7 +6,7 @@ import SingleGridItem from "../../../../components/Shop/SingleGridItem";
 import SingleListItem from "../../../../components/Shop/SingleListItem";
 // import CustomSelect from "../../../../components/ShopWithSidebar/CustomSelect";
 
-import ProdukAqua from "../../../../components/ProdukAqua/shopData";
+import ProdukWells from "../../../../components/ProdukWells/shopData";
 
 const ShopWithoutSidebar = () => {
   const [productStyle, setProductStyle] = useState("grid");
@@ -15,7 +15,7 @@ const ShopWithoutSidebar = () => {
     <>
       <Breadcrumb
         title={"Explore All Products"}
-        pages={["shop", "/", "Aqua"]}
+        pages={["shop", "/", "Wells"]}
       />
       <section className="overflow-hidden relative pb-20 pt-5 lg:pt-20 xl:pt-28 bg-[#f3f4f6]">
         <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
@@ -28,7 +28,7 @@ const ShopWithoutSidebar = () => {
                   <div className="flex flex-wrap items-center gap-4">
 
                     <p>
-                      Showing <span className="text-dark">6 of 6</span>{" "}
+                      Showing <span className="text-dark">3 of 3</span>{" "}
                       Products
                     </p>
                   </div>
@@ -122,7 +122,7 @@ const ShopWithoutSidebar = () => {
                     : "flex flex-col gap-7.5"
                 }`}
               >
-                {ProdukAqua.map((item, key) => //ganti PRODUKTEH sesuai component nya
+                {ProdukWells.map((item, key) => //ganti PRODUKTEH sesuai component nya
                   productStyle === "grid" ? (
                     <SingleGridItem item={item} key={key} />
                   ) : (
