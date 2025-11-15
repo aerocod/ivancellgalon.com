@@ -1,5 +1,5 @@
 import { Product } from "@/types/product";
-const ProdukAqua: Product[] = [
+const ProdukClub: Product[] = [
   {
     title: "CLUB GALON 19L (galon+air) - ORIGINAL 100%",
     reviews: 4,
@@ -128,4 +128,4 @@ const ProdukAqua: Product[] = [
   },
 ];
 
-export default ProdukAqua;
+export default ProdukClub;
