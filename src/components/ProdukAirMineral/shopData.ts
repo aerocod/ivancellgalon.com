@@ -135,12 +135,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Aquviva",
     imgs: {
       thumbnails: [
-        "/images/brand/Aquviva.webp",
-        "/images/brand/Aquviva.webp",
+        "/images/brand/aquviva.webp",
+        "/images/brand/aquviva.webp",
       ],
       previews: [
-        "/images/brand/Aquviva.webp",
-        "/images/brand/Aquviva.webp",
+        "/images/brand/aquviva.webp",
+        "/images/brand/aquviva.webp",
       ],
     },
   },
@@ -151,12 +151,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Ake",
     imgs: {
       thumbnails: [
-        "/images/brand/Ake.webp",
-        "/images/brand/Ake.webp",
+        "/images/brand/ake.webp",
+        "/images/brand/ake.webp",
       ],
       previews: [
-        "/images/brand/Ake.webp",
-        "/images/brand/Ake.webp",
+        "/images/brand/ake.webp",
+        "/images/brand/ake.webp",
       ],
     },
   },
@@ -167,12 +167,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Nestle",
     imgs: {
       thumbnails: [
-        "/images/brand/Nestle.webp",
-        "/images/brand/Nestle.webp",
+        "/images/brand/nestle.webp",
+        "/images/brand/nestle.webp",
       ],
       previews: [
-        "/images/brand/Nestle.webp",
-        "/images/brand/Nestle.webp",
+        "/images/brand/nestle.webp",
+        "/images/brand/nestle.webp",
       ],
     },
   },
@@ -183,12 +183,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Prima",
     imgs: {
       thumbnails: [
-        "/images/brand/Prima.webp",
-        "/images/brand/Prima.webp",
+        "/images/brand/prima.webp",
+        "/images/brand/prima.webp",
       ],
       previews: [
-        "/images/brand/Prima.webp",
-        "/images/brand/Prima.webp",
+        "/images/brand/prima.webp",
+        "/images/brand/prima.webp",
       ],
     },
   },
@@ -199,12 +199,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Sanqua",
     imgs: {
       thumbnails: [
-        "/images/brand/Sanqua.webp",
-        "/images/brand/Sanqua.webp",
+        "/images/brand/sanqua.webp",
+        "/images/brand/sanqua.webp",
       ],
       previews: [
-        "/images/brand/Sanqua.webp",
-        "/images/brand/Sanqua.webp",
+        "/images/brand/sanqua.webp",
+        "/images/brand/sanqua.webp",
       ],
     },
   },
@@ -215,12 +215,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Aquesto",
     imgs: {
       thumbnails: [
-        "/images/brand/Aquesto.webp",
-        "/images/brand/Aquesto.webp",
+        "/images/brand/aquesto.webp",
+        "/images/brand/aquesto.webp",
       ],
       previews: [
-        "/images/brand/Aquesto.webp",
-        "/images/brand/Aquesto.webp",
+        "/images/brand/aquesto.webp",
+        "/images/brand/aquesto.webp",
       ],
     },
   },
@@ -231,12 +231,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Opera",
     imgs: {
       thumbnails: [
-        "/images/brand/Opera.webp",
-        "/images/brand/Opera.webp",
+        "/images/brand/opera.webp",
+        "/images/brand/opera.webp",
       ],
       previews: [
-        "/images/brand/Opera.webp",
-        "/images/brand/Opera.webp",
+        "/images/brand/opera.webp",
+        "/images/brand/opera.webp",
       ],
     },
   },
@@ -247,12 +247,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Ron",
     imgs: {
       thumbnails: [
-        "/images/brand/Ron.webp",
-        "/images/brand/Ron.webp",
+        "/images/brand/ron.webp",
+        "/images/brand/ron.webp",
       ],
       previews: [
-        "/images/brand/Ron.webp",
-        "/images/brand/Ron.webp",
+        "/images/brand/ron.webp",
+        "/images/brand/ron.webp",
       ],
     },
   },
@@ -263,12 +263,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Crystaline",
     imgs: {
       thumbnails: [
-        "/images/brand/Crystaline.webp",
-        "/images/brand/Crystaline.webp",
+        "/images/brand/crystaline.webp",
+        "/images/brand/crystaline.webp",
       ],
       previews: [
-        "/images/brand/Crystaline.webp",
-        "/images/brand/Crystaline.webp",
+        "/images/brand/crystaline.webp",
+        "/images/brand/crystaline.webp",
       ],
     },
   },
@@ -279,12 +279,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Jiwater",
     imgs: {
       thumbnails: [
-        "/images/brand/Jiwater.webp",
-        "/images/brand/Jiwater.webp",
+        "/images/brand/jiwater.webp",
+        "/images/brand/jiwater.webp",
       ],
       previews: [
-        "/images/brand/Jiwater.webp",
-        "/images/brand/Jiwater.webp",
+        "/images/brand/jiwater.webp",
+        "/images/brand/jiwater.webp",
       ],
     },
   },
@@ -295,12 +295,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Winam",
     imgs: {
       thumbnails: [
-        "/images/brand/Winam.webp",
-        "/images/brand/Winam.webp",
+        "/images/brand/winam.webp",
+        "/images/brand/winam.webp",
       ],
       previews: [
-        "/images/brand/Winam.webp",
-        "/images/brand/Winam.webp",
+        "/images/brand/winam.webp",
+        "/images/brand/winam.webp",
       ],
     },
   },
@@ -311,28 +311,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Perfect",
     imgs: {
       thumbnails: [
-        "/images/brand/Perfect.webp",
-        "/images/brand/Perfect.webp",
+        "/images/brand/perfect.webp",
+        "/images/brand/perfect.webp",
       ],
       previews: [
-        "/images/brand/Perfect.webp",
-        "/images/brand/Perfect.webp",
-      ],
-    },
-  },
-  {
-    title: "Ron",
-    reviews: 100,
-    id: 13,
-    link: "/Ron",
-    imgs: {
-      thumbnails: [
-        "/images/brand/Ron.webp",
-        "/images/brand/Ron.webp",
-      ],
-      previews: [
-        "/images/brand/Ron.webp",
-        "/images/brand/Ron.webp",
+        "/images/brand/perfect.webp",
+        "/images/brand/perfect.webp",
       ],
     },
   },
@@ -343,12 +327,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Wells",
     imgs: {
       thumbnails: [
-        "/images/brand/Wells.webp",
-        "/images/brand/Wells.webp",
+        "/images/brand/wells.webp",
+        "/images/brand/wells.webp",
       ],
       previews: [
-        "/images/brand/Wells.webp",
-        "/images/brand/Wells.webp",
+        "/images/brand/wells.webp",
+        "/images/brand/wells.webp",
       ],
     },
   },
@@ -359,12 +343,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Aquase",
     imgs: {
       thumbnails: [
-        "/images/brand/Aquase.webp",
-        "/images/brand/Aquase.webp",
+        "/images/brand/aquase.webp",
+        "/images/brand/aquase.webp",
       ],
       previews: [
-        "/images/brand/Aquase.webp",
-        "/images/brand/Aquase.webp",
+        "/images/brand/aquase.webp",
+        "/images/brand/aquase.webp",
       ],
     },
   },
