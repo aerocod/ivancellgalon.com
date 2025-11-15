@@ -231,12 +231,12 @@ const ProdukAirMineral: brand[] = [
     link: "/Opera",
     imgs: {
       thumbnails: [
-        "/images/brand/opera.webp",
-        "/images/brand/opera.webp",
+        "/images/brand/Opera.webp",
+        "/images/brand/Opera.webp",
       ],
       previews: [
-        "/images/brand/opera.webp",
-        "/images/brand/opera.webp",
+        "/images/brand/Opera.webp",
+        "/images/brand/Opera.webp",
       ],
     },
   },
