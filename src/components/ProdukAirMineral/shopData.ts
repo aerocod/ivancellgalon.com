@@ -1,114 +1,370 @@
 import { brand } from "@/types/brand";
 const ProdukAirMineral: brand[] = [
   {
-    title: "(1 DUS) TEH MELATI ICHI OCHA 350 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 7,
+    title: "Aqua",
+    reviews: 100,
     id: 1,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)TEH-MELATI-ICHI-OCHA-350-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.40823813665?extraParams=%7B%22display_model_id%22%3A276934958061%7D",
+    link: "/Aqua",
     imgs: {
       thumbnails: [
-        "/images/products/teh/ichiocha350ml.webp",
-        "/images/products/teh/ichiocha350ml.webp",
+        "/images/brand/aqua.webp",
+        "/images/brand/aqua.webp",
       ],
       previews: [
-        "/images/products/teh/ichiocha350ml.webp",
-        "/images/products/teh/ichiocha350ml.webp",
+        "/images/brand/aqua.webp",
+        "/images/brand/aqua.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH PUCUK HARUM 350 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 32,
+    title: "Club",
+    reviews: 100,
     id: 2,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)TEH-PUCUK-HARUM-350-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.25043300109?extraParams=%7B%22display_model_id%22%3A248026684175%7D",
+    link: "/Club",
     imgs: {
       thumbnails: [
-        "/images/products/teh/tehpucuk350ml.webp",
-        "/images/products/teh/tehpucuk350ml.webp",
+        "/images/brand/club.webp",
+        "/images/brand/club.webp",
       ],
       previews: [
-        "/images/products/teh/tehpucuk350ml.webp",
-        "/images/products/teh/tehpucuk350ml.webp",
+        "/images/brand/club.webp",
+        "/images/brand/club.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH PUCUK HARUM LESS SUGAR 350 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 5,
+    title: "Cleo",
+    reviews: 100,
     id: 3,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)TEH-PUCUK-HARUM-LESS-SUGAR-350-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.43513911041?extraParams=%7B%22display_model_id%22%3A291148736269%7D",
+    link: "/Cleo",
     imgs: {
       thumbnails: [
-        "/images/products/teh/tehpucukls350ml.webp",
-        "/images/products/teh/tehpucukls350ml.webp",
+        "/images/brand/cleo.webp",
+        "/images/brand/cleo.webp",
       ],
       previews: [
-        "/images/products/teh/tehpucukls350ml.webp",
-        "/images/products/teh/tehpucukls350ml.webp",
+        "/images/brand/cleo.webp",
+        "/images/brand/cleo.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH BOTOL SOSRO ORIGINAL 350 ML isi (12 BOTOL) - ORIGINAL 100%",
-    reviews: 3,
+    title: "Cheers",
+    reviews: 100,
     id: 4,
-    link: "https://shopee.co.id/-INSTANT-(1-DUS)-TEH-BOTOL-SOSRO-ORIGINAL-350-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.26391899330?extraParams=%7B%22display_model_id%22%3A296664531610%7D",
+    link: "/Cheers",
     imgs: {
       thumbnails: [
-        "/images/products/teh/tehsosro350ml.webp",
-        "/images/products/teh/tehsosro350ml.webp",
+        "/images/brand/cheers.webp",
+        "/images/brand/cheers.webp",
       ],
       previews: [
-        "/images/products/teh/tehsosro350ml.webp",
-        "/images/products/teh/tehsosro350ml.webp",
+        "/images/brand/cheers.webp",
+        "/images/brand/cheers.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH NoGu Green Tea 250 ML isi (12 BOTOL) - ORIGINAL 100%",
-    reviews: 5,
+    title: "Le Mineral",
+    reviews: 100,
     id: 5,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)TEH-NoGu-Green-Tea-250-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.40765650106?extraParams=%7B%22display_model_id%22%3A286287804383%7D",
+    link: "/LeMineral",
     imgs: {
       thumbnails: [
-        "/images/products/teh/nogu250ml.webp",
-        "/images/products/teh/nogu250ml.webp",
+        "/images/brand/lemineral.webp",
+        "/images/brand/lemineral.webp",
       ],
       previews: [
-        "/images/products/teh/nogu250ml.webp",
-        "/images/products/teh/nogu250ml.webp",
+        "/images/brand/lemineral.webp",
+        "/images/brand/lemineral.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH PUCUK HARUM LESS SUGAR 500 ML isi (12 BOTOL) - ORIGINAL 100%",
-    reviews: 0,
+    title: "Pristine",
+    reviews: 100,
     id: 6,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)TEH-PUCUK-HARUM-LESS-SUGAR-500-ML-isi-(12-BOTOL)-ORIGINAL-100--i.9433308.41226058512?extraParams=%7B%22display_model_id%22%3A385058656189%7D",
+    link: "/Pristine",
     imgs: {
       thumbnails: [
-        "/images/products/teh/tehpucukls500ml.webp",
-        "/images/products/teh/tehpucukls500ml.webp",
+        "/images/brand/pristine.webp",
+        "/images/brand/pristine.webp",
       ],
       previews: [
-        "/images/products/teh/tehpucukls500ml.webp",
-        "/images/products/teh/tehpucukls500ml.webp",
+        "/images/brand/pristine.webp",
+        "/images/brand/pristine.webp",
       ],
     },
   },
   {
-    title: "(1 DUS) TEH BOTOL SOSRO ORIGINAL 450 ML isi (24 BOTOL) - ORIGINAL 100%",
-    reviews: 2,
+    title: "Vit",
+    reviews: 100,
     id: 7,
-    link: "https://shopee.co.id/%E2%9A%A1INSTANT%E2%9A%A1(1-DUS)-TEH-BOTOL-SOSRO-ORIGINAL-450-ML-isi-(24-BOTOL)-ORIGINAL-100--i.9433308.43270387610?extraParams=%7B%22display_model_id%22%3A261665101818%7D",
+    link: "/Vit",
     imgs: {
       thumbnails: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
+        "/images/brand/vit.webp",
+        "/images/brand/vit.webp",
       ],
       previews: [
-        "/images/products/teh/tehsosro450ml.webp",
-        "/images/products/teh/tehsosro450ml.webp",
+        "/images/brand/vit.webp",
+        "/images/brand/vit.webp",
+      ],
+    },
+  },
+  {
+    title: "Amidis",
+    reviews: 100,
+    id: 8,
+    link: "/Amidis",
+    imgs: {
+      thumbnails: [
+        "/images/brand/amidis.webp",
+        "/images/brand/amidis.webp",
+      ],
+      previews: [
+        "/images/brand/amidis.webp",
+        "/images/brand/amidis.webp",
+      ],
+    },
+  },
+  {
+    title: "Aquviva",
+    reviews: 100,
+    id: 9,
+    link: "/Aquviva",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Aquviva.webp",
+        "/images/brand/Aquviva.webp",
+      ],
+      previews: [
+        "/images/brand/Aquviva.webp",
+        "/images/brand/Aquviva.webp",
+      ],
+    },
+  },
+  {
+    title: "Ake",
+    reviews: 100,
+    id: 10,
+    link: "/Ake",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Ake.webp",
+        "/images/brand/Ake.webp",
+      ],
+      previews: [
+        "/images/brand/Ake.webp",
+        "/images/brand/Ake.webp",
+      ],
+    },
+  },
+  {
+    title: "Nestle",
+    reviews: 100,
+    id: 11,
+    link: "/Nestle",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Nestle.webp",
+        "/images/brand/Nestle.webp",
+      ],
+      previews: [
+        "/images/brand/Nestle.webp",
+        "/images/brand/Nestle.webp",
+      ],
+    },
+  },
+  {
+    title: "Prima",
+    reviews: 100,
+    id: 12,
+    link: "/Prima",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Prima.webp",
+        "/images/brand/Prima.webp",
+      ],
+      previews: [
+        "/images/brand/Prima.webp",
+        "/images/brand/Prima.webp",
+      ],
+    },
+  },
+  {
+    title: "Sanqua",
+    reviews: 100,
+    id: 13,
+    link: "/Sanqua",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Sanqua.webp",
+        "/images/brand/Sanqua.webp",
+      ],
+      previews: [
+        "/images/brand/Sanqua.webp",
+        "/images/brand/Sanqua.webp",
+      ],
+    },
+  },
+  {
+    title: "Aquesto",
+    reviews: 100,
+    id: 13,
+    link: "/Aquesto",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Aquesto.webp",
+        "/images/brand/Aquesto.webp",
+      ],
+      previews: [
+        "/images/brand/Aquesto.webp",
+        "/images/brand/Aquesto.webp",
+      ],
+    },
+  },
+  {
+    title: "Opera",
+    reviews: 100,
+    id: 13,
+    link: "/Opera",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Opera.webp",
+        "/images/brand/Opera.webp",
+      ],
+      previews: [
+        "/images/brand/Opera.webp",
+        "/images/brand/Opera.webp",
+      ],
+    },
+  },
+  {
+    title: "Ron",
+    reviews: 100,
+    id: 13,
+    link: "/Ron",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Ron.webp",
+        "/images/brand/Ron.webp",
+      ],
+      previews: [
+        "/images/brand/Ron.webp",
+        "/images/brand/Ron.webp",
+      ],
+    },
+  },
+  {
+    title: "Crystaline",
+    reviews: 100,
+    id: 13,
+    link: "/Crystaline",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Crystaline.webp",
+        "/images/brand/Crystaline.webp",
+      ],
+      previews: [
+        "/images/brand/Crystaline.webp",
+        "/images/brand/Crystaline.webp",
+      ],
+    },
+  },
+  {
+    title: "Jiwater",
+    reviews: 100,
+    id: 13,
+    link: "/Jiwater",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Jiwater.webp",
+        "/images/brand/Jiwater.webp",
+      ],
+      previews: [
+        "/images/brand/Jiwater.webp",
+        "/images/brand/Jiwater.webp",
+      ],
+    },
+  },
+  {
+    title: "Winam",
+    reviews: 100,
+    id: 13,
+    link: "/Winam",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Winam.webp",
+        "/images/brand/Winam.webp",
+      ],
+      previews: [
+        "/images/brand/Winam.webp",
+        "/images/brand/Winam.webp",
+      ],
+    },
+  },
+  {
+    title: "Perfect",
+    reviews: 100,
+    id: 13,
+    link: "/Perfect",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Perfect.webp",
+        "/images/brand/Perfect.webp",
+      ],
+      previews: [
+        "/images/brand/Perfect.webp",
+        "/images/brand/Perfect.webp",
+      ],
+    },
+  },
+  {
+    title: "Ron",
+    reviews: 100,
+    id: 13,
+    link: "/Ron",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Ron.webp",
+        "/images/brand/Ron.webp",
+      ],
+      previews: [
+        "/images/brand/Ron.webp",
+        "/images/brand/Ron.webp",
+      ],
+    },
+  },
+  {
+    title: "Wells",
+    reviews: 100,
+    id: 13,
+    link: "/Wells",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Wells.webp",
+        "/images/brand/Wells.webp",
+      ],
+      previews: [
+        "/images/brand/Wells.webp",
+        "/images/brand/Wells.webp",
+      ],
+    },
+  },
+  {
+    title: "Aquase",
+    reviews: 100,
+    id: 13,
+    link: "/Aquase",
+    imgs: {
+      thumbnails: [
+        "/images/brand/Aquase.webp",
+        "/images/brand/Aquase.webp",
+      ],
+      previews: [
+        "/images/brand/Aquase.webp",
+        "/images/brand/Aquase.webp",
       ],
     },
   },
