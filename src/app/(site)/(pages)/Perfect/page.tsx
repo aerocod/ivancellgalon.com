@@ -28,7 +28,7 @@ const ShopWithoutSidebar = () => {
                   <div className="flex flex-wrap items-center gap-4">
 
                     <p>
-                      Showing <span className="text-dark">2 of 2</span>{" "}
+                      Showing <span className="text-dark">3 of 3</span>{" "}
                       Products
                     </p>
                   </div>

@@ -36,6 +36,24 @@ const ProdukPerfect: Product[] = [
       ],
     },
   },
+  {
+    title: "(1 DUS) PERFECT BOTOL 1 LITER isi (6 BOTOL) - ORIGINAL 100%",
+    reviews: 1,
+    price: 60000,
+    discountedPrice: 59000,
+    id: 1,
+    link: "https://shopee.co.id/product/9433308/54201453317?d_id=29eb8&uls_trackid=5472159g0258&utm_content=4KHEoPNGu71z1ZnKGsrrZYss21D1",
+    imgs: {
+      thumbnails: [
+        "/images/brand/perfect/perfect1l.webp",
+        "/images/brand/perfect/perfect1l.webp",
+      ],
+      previews: [
+        "/images/brand/perfect/perfect1l.webp",
+        "/images/brand/perfect/perfect1l.webp",
+      ],
+    },
+  },
 ];
 
 export default ProdukPerfect;

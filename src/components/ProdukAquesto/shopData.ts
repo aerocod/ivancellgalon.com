@@ -54,6 +54,24 @@ const ProdukAquesto: Product[] = [
       ],
     },
   },
+  {
+    title: "(1 DUS) AQUESTO GELAS 220 ML isi (48 GELAS ) - ORIGINAL 100%",
+    reviews: 1,
+    price: 20000,
+    discountedPrice: 19000,
+    id: 3,
+    link: "https://shopee.co.id/product/9433308/48251513065?d_id=29eb8&uls_trackid=54722sj00158&utm_content=4KHEoPNGu7rd4DWPnR7peCHNSJmm",
+    imgs: {
+      thumbnails: [
+        "/images/brand/aquesto/220.webp",
+        "/images/brand/aquesto/220.webp",
+      ],
+      previews: [
+        "/images/brand/aquesto/220.webp",
+        "/images/brand/aquesto/220.webp",
+      ],
+    },
+  },
 ];
 
 export default ProdukAquesto;

@@ -36,6 +36,24 @@ const ProdukSanqua: Product[] = [
       ],
     },
   },
+  {
+    title: "(1 DUS) SANQUA GELAS 220 ML isi (48 GELAS ) - ORIGINAL 100%",
+    reviews: 1,
+    price: 22000,
+    discountedPrice: 21000,
+    id: 1,
+    link: "https://shopee.co.id/product/9433308/57851502585?d_id=29eb8&uls_trackid=5471vdcr0035&utm_content=4KHEoPNGu61vqxzUU5K6T38piB2f",
+    imgs: {
+      thumbnails: [
+        "/images/brand/sanqua/220gelas.webp",
+        "/images/brand/sanqua/220gelas.webp",
+      ],
+      previews: [
+        "/images/brand/sanqua/220gelas.webp",
+        "/images/brand/sanqua/220gelas.webp",
+      ],
+    },
+  },
 ];
 
 export default ProdukSanqua;
