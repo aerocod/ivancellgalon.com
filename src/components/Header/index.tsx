@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import CustomSelect from "./CustomSelect";
 import { menuData } from "./menuData";
@@ -14,7 +14,20 @@ const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const { openCartModal } = useCartModalContext();
+
+  const togglePlayMusic = () => {
+    if (!audioRef.current) return;
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play().catch((err) => {
+        console.warn("Audio play prevented or failed:", err);
+      });
+    }
+  };
 
   const product = useAppSelector((state) => state.cartReducer.items);
   const totalPrice = useSelector(selectTotalPrice);
@@ -150,6 +163,68 @@ const Header = () => {
                     </p>
                   </div>
                 </Link>
+
+                {/* Audio Element & Music Player Button */}
+                <audio
+                  ref={audioRef}
+                  src="/audio/ivancell_song.mpeg"
+                  preload="metadata"
+                  loop
+                  onPlay={() => setIsPlaying(true)}
+                  onPause={() => setIsPlaying(false)}
+                  onEnded={() => setIsPlaying(false)}
+                />
+
+                <button
+                  type="button"
+                  onClick={togglePlayMusic}
+                  aria-label={isPlaying ? "Pause music" : "Play music"}
+                  title={isPlaying ? "Pause music (Ivancell Song)" : "Play music (Ivancell Song)"}
+                  className={`group relative flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full border transition-all duration-300 focus:outline-none ${
+                    isPlaying
+                      ? "border-blue bg-blue/10 shadow-sm ring-2 ring-blue/20"
+                      : "border-gray-3 bg-white hover:border-blue hover:shadow-sm"
+                  }`}
+                >
+                  {isPlaying ? (
+                    <div className="flex items-end justify-center gap-[3px] h-4.5 w-4.5">
+                      <span className="w-[3px] bg-blue rounded-full animate-music-bar-1" />
+                      <span className="w-[3px] bg-blue rounded-full animate-music-bar-2" />
+                      <span className="w-[3px] bg-blue rounded-full animate-music-bar-3" />
+                    </div>
+                  ) : (
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="text-dark transition-colors duration-200 group-hover:text-blue"
+                    >
+                      <path
+                        d="M9 18V5L20 3V16"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <circle
+                        cx="6"
+                        cy="18"
+                        r="3"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                      />
+                      <circle
+                        cx="17"
+                        cy="16"
+                        r="3"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                      />
+                    </svg>
+                  )}
+                </button>
 
                 {/* <button
                   onClick={handleOpenCartModal}
